@@ -1,4 +1,4 @@
-# C Sharp-Object-Pooling
+# C Sharp Object Pooling for Spawning
 Game Objects Pooling scripts in C#
 
 ## **How To Use?**
