@@ -44,7 +44,7 @@ Note: They are all in inactive state at first!
 # To Use A Game Object From The Pool (inactive -> active)
 Just use this code to set the object (inactive currently) to active.
 ```
-poolManager.ReuseObject(objPrefabs[prefabToSpawnIndex], spawnPoint[posToSpawn], spawnPoint[posToSpawn].rotation);
+poolManager.ReuseObject(objPrefabs[prefabToSpawnIndex], spawnPoint[posToSpawn].position, spawnPoint[posToSpawn].rotation);
 ```
 **Note: prefabToSpawnIndex** and **posToSpawn** are to defined earlier before this line. If you wish to spawn random prefab and position, then add this two lines before **_ReuseObject()_**:
 ```
