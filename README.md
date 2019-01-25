@@ -16,7 +16,7 @@ PoolManager poolManager;
 ###### Step 3
 Declare a single/array of game objects - for developer to drag in object prefab to spawn
 ```
-public Gameobject[] objPrefabs;
+public GameObject[] objPrefabs;
 ```
 
 ###### Step 4 (optional) - spawn objects at specific locations
